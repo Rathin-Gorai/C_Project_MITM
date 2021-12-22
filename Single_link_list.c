@@ -23,6 +23,9 @@ int main()
 	system("color 2");
 	int n,m,o,p,q;
 	char c;
+	while(n!=4)
+	{
+	//system("cls");
 	printf("\n\t                    ||`        '||                   '||      \n\t                    ||          ||                    ||      \n\t`||''|,  .|''|, .|''||  .|''|,  ||''|, .|''|, .|''|,  || //`  \n\t ||  ||  ||  || ||  ||  ||..||  ||  || ||  || ||  ||  ||<<    \n\t.||  ||. `|..|' `|..||. `|...  .||..|' `|..|' `|..|' .|| \\. ");
 	printf("\n\n\t\t\t\t\t\t      ~Rathin Gorai");
 	printf("\n\n\t\t[1]-> Create a Note\n\t\t[2]-> Node Operation\n\t\t[3]-> Print the list \n\t\t[4]-> Exit\n");
@@ -134,7 +137,7 @@ int main()
 		printf("Wrong input");
 		
 	}
-		
+	}	
 	return 0;
 }
 void beginsert()
